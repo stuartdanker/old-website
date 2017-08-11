@@ -26,6 +26,10 @@
   display:hidden;
 }
 
+.border-green {
+  border: 5px solid green;
+}
+
 .border-crimson {
   border: 5px solid crimson;
 }
@@ -46,5 +50,10 @@
   border: 5px solid orange;
 }
 
+.border-yellow {
+  border:10px solid yellow;
+}
+
 #important {
+  font-size: 20px;
 }
