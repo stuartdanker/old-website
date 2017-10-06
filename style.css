@@ -1,0 +1,170 @@
+header {
+  font-family: 'Lato', sans-serif;
+  background-color: #e8640c;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 15px;
+  padding-top: 20;
+  padding-bottom: 1;
+  position: relative;
+  border-radius: 20px;
+}
+
+header h1 {
+  strong
+}
+
+header nav {
+  float: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+  color: white;
+}
+
+header a {
+  color: white;
+}
+
+.header-container {
+  position: relative;
+}
+
+#header-logo {
+  width: 100px;
+}
+
+@media(max-width: 768px) {
+  #header-logo {
+    position: static;
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.4em;
+}
+
+article {
+  margin: 0 auto;
+  float: left;
+}
+
+@media(min-width: 769px) {
+  article {
+    max-width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  article {
+    width: 100%;
+  }
+}
+
+aside {
+  width: 200px;
+  float: right;
+}
+
+@media(max-width: 768px) {
+  aside {
+    width: 100%;
+  }
+}
+
+footer {
+  clear: both;
+  margin: 20px;
+}
+
+section {
+  margin: 50 30;
+  box-sizing: border-box;
+  }
+
+#gallery img, figure {
+    display: inline-block;
+    width: 280px;
+    border-radius: 20px;
+    margin: 0px;
+  }
+
+figure {
+  margin-bottom: 15px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: black;
+  color: white;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  /*text-decoration: none;*/
+  border-right: 3px solid grey;
+  border-bottom: 3px solid grey;
+}
+
+.back-to-top a:visited, a:link {
+  color: white;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+/*#back-to-top:visited {
+  color: white;
+  font-weight: bold;
+}*/
+
+@media(max-width: 768px) {
+  #back-to-top {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+.alignment {
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.indigo {
+    color: indigo;
+}
+
+.violet {
+    color: violet;
+}
